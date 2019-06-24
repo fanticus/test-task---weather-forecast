@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font: normal 20px/1.5 Helvetica, sans-serif;
+  background: #f4f4f4;
+}
+
+.margin-horizontal {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  margin-top: 150px;
+}
+
+.container-list, .weather-list {
+  display: flex;
+  align-items: center;
+}
+
+.title-label {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-list {
+  width: 195px;
+  height: 250px;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.week-day-label {
+  color: #757575;
+  font-size: 11px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.cloudiness-div {
+  background-repeat: no-repeat;
+  width: 74px;
+  height: 74px;
+}
+
+.current-date-label, .temperature-day-label {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.temperature-night-label {
+  font-size: 12px;
+  color: #9c9c9c;
+}
+
+.rainfall-fabel {
+  font-size: 14px;
+  color: #9c9c9c;
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+
+.backIcon {
+  margin-left: auto;
+  border: solid #c7c7c7;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.nextIcon {
+  margin-right: auto;
+  border: solid #000;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.button {
+  width: 35px;
+  height: 35px;
+  border-width: 0 3px 3px 0;
+}
